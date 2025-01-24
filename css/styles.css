@@ -1,3 +1,5 @@
+@import url('variables.css');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,24 @@ html, body {
   height: 100%;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  border-bottom: 1px solid var(--blue700);
+  position: absolute;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -15,7 +35,21 @@ html, body {
   height: 100vh;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.logo {
+  align-items: center;
+  color: var(--blue700);
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 32px;
+}
+
+.logo span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  letter-spacing: 0.085rem;
 }
