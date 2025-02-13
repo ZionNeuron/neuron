@@ -1,12 +1,14 @@
 @font-face {
   font-family: 'Inter';
   src: 
-    url('../fonts/inter/Inter-VariableFont_opsz\,wght.ttf') format('woff2-variations'),
-    url('../fonts/inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('woff2 supports variations');
+    url('../assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf') format('woff2-variations'),
+    url('../assets/fonts/inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('woff2 supports variations');
   font-weight: 100 1000;
   font-stretch: 25% 151%;
 }
 
 :root {
   --blue700: rgb(12,102,228);
+  --neutral100: rgb(247,248,249);
+  --neutral400A: rgba(9,30,66,0.31);
 }

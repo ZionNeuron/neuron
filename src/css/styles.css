@@ -10,12 +10,31 @@ html, body {
   height: 100%;
 }
 
+.main-container {
+  background-image: url('../assets/images/workShopIT.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter';
+  min-height: 100vh;
+}
+
 img {
   max-width: 100%;
   height: auto;
 }
 
 header {
+  background-color: var(--neutral400A);
+  backdrop-filter: blur(10px);
+  color: var(--neutral100);
+  padding: 20px 40px;
+  position: absolute;
+  width: 100%;
+}
+
+/* header {
   border-bottom: 1px solid var(--blue700);
   position: absolute;
   width: 100%;
@@ -33,11 +52,11 @@ nav {
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
+} */
 
 .logo {
   align-items: center;
-  color: var(--blue700);
+  color: var(--neutral100);
   display: flex;
   font-family: 'Inter', sans-serif;
   text-decoration: none;
